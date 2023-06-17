@@ -48,3 +48,26 @@ text-align: center;
   text-align: center;
 
 }
+
+.card{
+  font-size: 14px;
+  margin: 10% 10%;
+  line-height: 10px;
+}
+.card-image{
+  width: 15rem;
+  margin-bottom: 15px;
+}
+
+
+.card-gray{
+  color: #918E9B;
+}
+
+.card-star{
+  width: 15px;
+}
+
+.card-bold{
+  font-weight: bold;
+}
