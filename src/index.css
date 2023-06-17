@@ -51,7 +51,7 @@ text-align: center;
 
 .card{
   font-size: 14px;
-  margin: 10% 10%;
+  padding: 30px;
   line-height: 10px;
 }
 .card-image{
