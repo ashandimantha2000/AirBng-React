@@ -5,6 +5,7 @@
 body{
   margin: 0;
   font-family: Poppins, sans-serif;
+  
 }
 
 
@@ -73,25 +74,34 @@ text-align: center;
 }
 
 
-.contacts{
+.contacts {
   display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  
 }
 
 
 .contacts-card{
-  flex-basis: 225px;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
-  padding: 13px;
-  border-radius: 10px;
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
+    height: fit-content;
+  
 }
 
-.contacts-card > img{
+
+
+.contacts-img > img{
   width: 100%;
-  margin-right: 10px;
   border-radius: 7px;
+
 }
 
 .contacts-card >h3{
@@ -105,6 +115,7 @@ text-align: center;
 
 .card-info >img{
   width: 10px;
+  margin-right: 7px;
 
 }
 
