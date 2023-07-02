@@ -11,33 +11,37 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      <Card />
-      <div className='contacts'>
-      <Contacts
-        image="../src/assets/cat.jpg"
-        name="Ashan Dimantha"
-        phone="+94 71 311 2927"
-        email="ashan@gmail.com"
-      />
-      <Contacts
-        image="../src/assets/dushan.png"
-        name="Dushan Senadheera"
-        phone="+94 71 455 6767"
-        email="nethmi@gmail.com"
-      />
-      <Contacts
-        image="../src/assets/tharun.jpg"
-        name="Tharun Thathsara"
-        phone="+94 78 999 6735"
-        email="binuli@gmail.com"
-      />
-      <Contacts
-        image="../src/assets/amith.jpg"
-        name="Amith Indika"
-        phone="+94 72 567 9091"
-        email="arabiya@gmail.com"
-      />
+      <div className="card-set">
+        <Card
+          image="../src/assets/image1.png"
+          text="Life lessons with Katie Zaferes"
+          rating="4.0"
+          country="USA"
+          price="136"
+        />
+        <Card
+          image="../src/assets/image2.png"
+          text="Life lessons with Katie Zaferes"
+          rating="4.4"
+          country="Swedan"
+          price="224"
+        />
+        <Card
+          image="../src/assets/image3.png"
+          text="Life lessons with Katie Zaferes"
+          rating="5.0"
+          country="UK"
+          price="147"
+        />
+        <Card
+          image="../src/assets/image4.jpg"
+          text="Life lessons with Katie Zaferes"
+          rating="3.6"
+          country="India"
+          price="200"
+        />
+        
       </div>
     </div>
   )
-}
+} 
