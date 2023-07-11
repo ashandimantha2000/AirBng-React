@@ -10,11 +10,10 @@ export default function App() {
   const cards = data.map((item=>{
     return(
       <Card
-        image={item.coverImg}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        location={item.location}
-        price={item.price}
+        key={item.id}
+        // item={item}
+        //Spread syntax can be used when all elements from an object or array need to be included in a new array or object
+        {...item}
 
       />
     )
